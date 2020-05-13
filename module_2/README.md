@@ -81,7 +81,6 @@
 
 #### Мысль №2: 
 >Следует создать новый датасет из признаков 'address', 'age', 'Mjob', 'Medu', 'Fedu', 'Fjob', 'studytime', 'failures', 'higher', 'romantic', 'goout', **'score'**.  
-	Признаки 'Medu', 'Fedu', 'studytime', 'failures', 'goout' - категориальные, порядковые.      
-	Признаки 'Mjob', 'Fjob' - категориальные, НЕ порядковые, метки классов, следует преобразовать с помощью pd.get_dummies(data=df_dummy, columns=[ 'Mjob', 'Fjob'])в    
-	Mjob_at_home	Mjob_health	Mjob_other	Mjob_services	Mjob_teacher	Fjob_at_home	Fjob_health	Fjob_other	Fjob_services Fjob_teache.      
+>Признаки 'Medu', 'Fedu', 'studytime', 'failures', 'goout' - категориальные, порядковые.      
+>Признаки 'Mjob', 'Fjob' - категориальные, НЕ порядковые, метки классов, следует преобразовать с помощью pd.get_dummies(data=df_dummy, columns=[ 'Mjob', 'Fjob'])в Mjob_at_home	Mjob_health	Mjob_other	Mjob_services	Mjob_teacher	Fjob_at_home	Fjob_health	Fjob_other	Fjob_services Fjob_teache.      
 	
