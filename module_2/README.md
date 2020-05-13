@@ -53,7 +53,7 @@
 ------  
 ------  
 ## Выводы по результату анализа категориальных и числовых признаков:
-#### 1. Значимые столбцы для **score** (11 из 30):  
+#### 1. Значимые признаки для **score** (11 из 30):  
 ***'address', 'age', 'Mjob', 'Medu', 'Fedu', 'Fjob', 'studytime', 'failures', 'higher', 'romantic', 'goout', 'score'***.  
 #### 2. Минимальный проходной балл по математике == 20.
 #### 3. Влияние 'studytime granular' эквивалентно 'studytime', но с другим знаком. Видимо, это N * минимальное_время_занятий * -1 (-1, чтоб была положительная "корреляция" со **score**).   
@@ -80,7 +80,7 @@
 ### Для ускорения процесса, вероятно, не стоит проводить очистку данных для всех столбцов, она показана только для значимых столбцов. 
  
 >Следует создать новый датасет из признаков 'address', 'age', 'Mjob', 'Medu', 'Fedu', 'Fjob', 'studytime', 'failures', 'higher', 'romantic', 'goout', **'score'**.  
-	Столбцы 'Medu', 'Fedu', 'studytime', 'failures', 'goout' - категориальные, порядковые.    
-	Столбцы 'Mjob', 'Fjob' - категориальные, НЕ порядковые, метки классов, следует преобразовать с помощью pd.get_dummies(data=df_dummy, columns=[ 'Mjob', 'Fjob'])в    
+	Признаки 'Medu', 'Fedu', 'studytime', 'failures', 'goout' - категориальные, порядковые.    
+	Признаки 'Mjob', 'Fjob' - категориальные, НЕ порядковые, метки классов, следует преобразовать с помощью pd.get_dummies(data=df_dummy, columns=[ 'Mjob', 'Fjob'])в    
 	Mjob_at_home	Mjob_health	Mjob_other	Mjob_services	Mjob_teacher	Fjob_at_home	Fjob_health	Fjob_other	Fjob_services Fjob_teache.      
 	
