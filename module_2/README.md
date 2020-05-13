@@ -75,8 +75,8 @@
 Характер boxplot-ов, до очистки данных и после нее так же не отличается.  
 ### Для ускорения процесса, вероятно, не стоит проводить очистку данных для всех столбцов, она показана только для значимых столбцов. 
  
->Следует создать новый датасет из признаков 'address', 'age', 'Mjob', 'Medu', 'Fedu', 'Fjob', 'studytime', 'failures', 'higher', 'romantic', 'goout', **'score'**.
-	Столбцы 'Medu', 'Fedu', 'studytime', 'failures', 'goout' - категориальные, порядковые.  
-	Столбцы 'Mjob', 'Fjob' - категориальные, НЕ порядковые, метки классов, следует преобразовать с помощью pd.get_dummies(data=df_dummy, columns=[ 'Mjob', 'Fjob'])в  
-	Mjob_at_home	Mjob_health	Mjob_other	Mjob_services	Mjob_teacher	Fjob_at_home	Fjob_health	Fjob_other	Fjob_services Fjob_teache.    
+>Следует создать новый датасет из признаков 'address', 'age', 'Mjob', 'Medu', 'Fedu', 'Fjob', 'studytime', 'failures', 'higher', 'romantic', 'goout', **'score'**.  
+	Столбцы 'Medu', 'Fedu', 'studytime', 'failures', 'goout' - категориальные, порядковые.    
+	Столбцы 'Mjob', 'Fjob' - категориальные, НЕ порядковые, метки классов, следует преобразовать с помощью pd.get_dummies(data=df_dummy, columns=[ 'Mjob', 'Fjob'])в    
+	Mjob_at_home	Mjob_health	Mjob_other	Mjob_services	Mjob_teacher	Fjob_at_home	Fjob_health	Fjob_other	Fjob_services Fjob_teache.      
 	
