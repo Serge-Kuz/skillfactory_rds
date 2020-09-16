@@ -24,6 +24,7 @@ sf-dst-10-car-price-prediction-kuzmenko-10.71896.ipynb kaggle score = 10.71896
 	lda_model.model.state  
 4. parseautoru/[SF-DST-10] [Car Price prediction] [Kuzmenko] -parse auto_ru - скрипт асинхронного парсинга с динамическим кэшированием proxy  
 5. submission_blend_v37-10.71896.csv - результат на Kaggle БЕЗ Stacking!!! 
+6. sf-dst-10-car-price-prediction-kuzmenko_stacking.ipynb - скрипт Stacking
 	
 	
 
